@@ -1,0 +1,22 @@
+.el-table .cell{
+  color: #333;
+}
+.el-dialog__title{
+  font-size: 16px;
+  font-weight: bold;
+}
+.el-tabs__item{
+  font-size: 16px;
+  font-weight: bold;
+}
+.el-pagination{
+  margin-top: 24px;
+  text-align: center;
+}
+.el-divider--vertical {
+  height: 250px;
+  margin-left: 50%;
+}
+.el-table--border td, .el-table--border th{
+  border-right: none;
+}

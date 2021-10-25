@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>打印预览</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 黑体;
+			color: #000000;
+			font-size: 10pt;
+		}
+
+		td {
+			border-color: #CCCCCC;
+			border: 1px solid;
+			padding: 5pt 20pt 5pt 5pt;
+		}
+
+		td:nth-child(2) {
+			width: 250pt;
+		}
+
+		.title {
+			font-size: 12pt;
+			font-weight: 600;
+			line-height: 20pt;
+		}
+	</style>
+</head>
+
+<body>
+	<table border style="border-collapse: collapse;">
+		<tr class="title">
+			<td colspan='2'><strong>订单信息</strong></td>
+		</tr>
+		<tr>
+			<td>邮寄编号</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>卷宗号</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>姓名</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>证件类型</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>证件号码</td>
+			<td></td>
+		</tr>
+		<tr class="title">
+			<td colspan='2'><strong>收件地址信息</strong></td>
+		</tr>
+		<tr>
+			<td>姓名</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>手机号码</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>固话号码</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>公司名称</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>地址</td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+
+</html>
